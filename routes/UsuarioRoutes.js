@@ -15,6 +15,6 @@ router.get(
 );
 
 router.post(
-  "/usuario",
-  usuarioController.loginUsuario
+  "/login",
+  usuarioController.loginUsuarios
 );
